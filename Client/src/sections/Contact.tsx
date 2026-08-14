@@ -19,7 +19,7 @@ export default function Contact() {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const response = await fetch("https://portfolio-cevh.onrender.com/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
