@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="flex gap-5 pt-8">
             <a
               href="#project"
-              className="bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 text-white md:px-5 px-3 py-2 md:py-2.5 rounded-full font-medium hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 transition-all  duration-300 hover:-translate-y-0.5 hover:shadow-xl text-nowrap"
+              className="bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 text-white md:px-5 px-3 py-2 md:py-2.5 rounded-full font-medium hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 transition-all  duration-300 hover:-translate-y-0.5 hover:shadow-xl md:text-nowrap"
             >
               View Projects
             </a>
