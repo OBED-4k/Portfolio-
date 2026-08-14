@@ -5,6 +5,7 @@ import Skills from "../sections/Skills";
 import About from "../sections/About";
 import Contact from "../sections/Contact";
 import Footer from "../components/layout/Footer";
+import ScrollToTop from "../components/uiComponents/ScrollTop";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <About />
       <Contact />
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }
