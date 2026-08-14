@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="flex gap-5 pt-8">
             <a
               href="#project"
-              className="bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 text-white md:px-5 px-3 py-2 md:py-2.5 rounded-full font-medium hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 transition-all  duration-300 hover:-translate-y-0.5 hover:shadow-xl"
+              className="bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 text-white md:px-5 px-3 py-2 md:py-2.5 rounded-full font-medium hover:from-blue-600 hover:via-purple-600 hover:to-pink-600 transition-all  duration-300 hover:-translate-y-0.5 hover:shadow-xl text-nowrap"
             >
               View Projects
             </a>
@@ -40,7 +40,7 @@ export default function Hero() {
               href="/Mike-Obed-Resume.pdf"
               download="Mike-Obed-Frontend-Resume.pdf"
               className="relative flex gap-1 border-2 md:border-3 lg:border-2 border-(--primary) hover:bg-(--primary-hover) text-(--primary)
-              hover:text-slate-200 hover:-translate-y-0.5 rounded-full px-3 py-2 w-45"
+              hover:text-slate-200 hover:-translate-y-0.5 rounded-full px-3 py-3 w-45"
             >
               Download Resume
               <span className="absolute right-1/20 text-2xl">
