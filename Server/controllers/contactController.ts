@@ -19,9 +19,11 @@ export const sendContactMessage = async (req: Request, res: Response) => {
 
   if (error) {
     console.error("Error sending contact message:", error);
+
     return res.status(500).json({
       success: false,
       message: "Failed to send contact message",
+      error: error.message,
     });
   }
 
